@@ -9,8 +9,8 @@ export default function Home() {
         <div className="md:space-y-6 py-16 md:py-32 space-y-3">
           <div className="flex items-center justify-center mt-28 lg:mt-4">
             <div className="flex justify-center items-center bg-gray-600 bg-opacity-50 rounded-full w-52 h-52 md:w-52 md:h-52">
-              <img className="rounded-full w-48 h-48 md:w-48 md:h-48 drop-shadow-3xl shadow-cyan-500/50"
-                src="/usamamalik2.jpg" alt="usama" />
+              <Image className="rounded-full w-48 h-48 md:w-48 md:h-48 drop-shadow-3xl shadow-cyan-500/50"
+                src="/usamamalik2.jpg" alt="usama" width={100} height={100}/>
             </div>
           </div>
           <div className="flex justify-center items-center -ml-6 tracking-widest space-x-1 md:space-x-3 px-16 font-bold">
@@ -18,7 +18,7 @@ export default function Home() {
             <p className="text-red-500 text-3xl md:text-4xl">MALIK</p>
           </div>
           <div className="flex justify-center items-center -ml-2 space-x-1 md:space-x-2">
-            <p className="text-white text-center text-lg md:text-2xl font-semibold">I'm a</p>
+            <p className="text-white text-center text-lg md:text-2xl font-semibold">I am a</p>
             <div className="flex justify-center items-center text-white text-lg md:text-2xl font-semibold ml-2 overflow-hidden"
               style={{ transformStyle: "preserve-3d" }}>
               <TypingAnimation />

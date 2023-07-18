@@ -54,7 +54,7 @@ export default function Contact() {
             <textarea
               className="w-full rounded-lg  border-slate-500 p-3 text-sm"
               placeholder="Message"
-              rows="8"
+              
               id="message"
             ></textarea>
           </div>

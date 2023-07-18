@@ -1,3 +1,6 @@
+import Image from "next/image";
+
+
 export default function Portfolio() {
   return (
     <section id="portfolio">
@@ -18,9 +21,11 @@ export default function Portfolio() {
         <ul className="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
           <li>
             <a href="#" className="block overflow-hidden group">
-              <img
+              <Image
                 src="/u5.jpg"
                 alt=""
+                width={100}
+                height={100}
                 className="h-48 sm:h-72 md:h-76 w-full object-cover transition duration-500 group-hover:scale-105"
               />
             </a>
@@ -28,9 +33,11 @@ export default function Portfolio() {
 
           <li>
             <a href="#" className="block overflow-hidden group">
-              <img
+              <Image
                 src="/u6.jpg"
                 alt=""
+                width={100}
+                height={100}
                 className="h-48 sm:h-72 md:h-76 w-full object-cover transition duration-500 group-hover:scale-105"
               />
             </a>
@@ -38,9 +45,11 @@ export default function Portfolio() {
 
           <li>
             <a href="#" className="block overflow-hidden group">
-              <img
+              <Image
                 src="/u7.jpg"
                 alt=""
+                width={100}
+                height={100}
                 className="h-48 sm:h-72 md:h-76 w-full object-cover transition duration-500 group-hover:scale-105"
               />
             </a>
@@ -48,9 +57,11 @@ export default function Portfolio() {
 
           <li>
             <a href="#" className="block overflow-hidden group">
-              <img
+              <Image
                 src="/u8.jpg"
                 alt=""
+                width={100}
+                height={100}
                 className="h-48 sm:h-72 md:h-76 w-full object-cover transition duration-500 group-hover:scale-105"
               />
             </a>
@@ -58,9 +69,11 @@ export default function Portfolio() {
 
           <li>
             <a href="#" className="block overflow-hidden group">
-              <img
+              <Image
                 src="/u9.jpg"
                 alt=""
+                width={100}
+                height={100}
                 className="h-48 sm:h-72 md:h-76 w-full object-cover transition duration-500 group-hover:scale-105"
               />
             </a>
@@ -68,9 +81,11 @@ export default function Portfolio() {
 
           <li>
             <a href="#" className="block overflow-hidden group">
-              <img
+              <Image
                 src="/u10.jpg"
                 alt=""
+                width={100}
+                height={100}
                 className="h-48 sm:h-72 md:h-76 w-full object-cover transition duration-500 group-hover:scale-105"
               />
             </a>
@@ -113,7 +128,7 @@ export default function Portfolio() {
 //     <ul className="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
 //       <li>
 //         <a href="#" className="block overflow-hidden group">
-//           <img
+//           <Image
 //             src="/u5.jpg"
 //             alt=""
 //             className="h-[220px] w-[289px] object-cover transition duration-500 group-hover:scale-105 sm:h-[220px]"
@@ -124,7 +139,7 @@ export default function Portfolio() {
 
 //       <li>
 //         <a href="#" className="block overflow-hidden group">
-//           <img
+//           <Image
 //             src="/u6.jpg"
 //             alt=""
 //             className="h-[220px] w-[289px] object-cover transition duration-500 group-hover:scale-105 sm:h-[220px]"
@@ -134,7 +149,7 @@ export default function Portfolio() {
 
 //       <li>
 //         <a href="#" className="block overflow-hidden group">
-//           <img
+//           <Image
 //             src="/u7.jpg"
 //             alt=""
 //             className="h-[220px] w-[289px] object-cover transition duration-500 group-hover:scale-105 sm:h-[220px]"
@@ -144,7 +159,7 @@ export default function Portfolio() {
 
 //       <li>
 //         <a href="#" className="block overflow-hidden group">
-//           <img
+//           <Image
 //             src="/u8.jpg"
 //             alt=""
 //             className="h-[220px] w-[289px] object-cover transition duration-500 group-hover:scale-105 sm:h-[220px]"
@@ -154,7 +169,7 @@ export default function Portfolio() {
 
 //       <li>
 //         <a href="#" className="block overflow-hidden group">
-//           <img
+//           <Image
 //             src="/u9.jpg"
 //             alt=""
 //             className="h-[220px] w-[289px] object-cover transition duration-500 group-hover:scale-105 sm:h-[220px]"
@@ -164,7 +179,7 @@ export default function Portfolio() {
 
 //       <li>
 //         <a href="#" className="block overflow-hidden group">
-//           <img
+//           <Image
 //             src="/u10.jpg"
 //             alt=""
 //             className="h-[220px] w-[289px] object-cover transition duration-500 group-hover:scale-105 sm:h-[220px]"
