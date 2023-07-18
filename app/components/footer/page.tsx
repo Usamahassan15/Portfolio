@@ -1,6 +1,6 @@
 import { GrFacebookOption } from "react-icons/gr";
-import { BsTwitter } from "react-icons/Bs";
-import { SiYoutube } from "react-icons/Si";
+import { FaTwitter } from "react-icons/fa"; 
+import { BsYoutube } from "react-icons/Bs";
 import { IoLogoTiktok } from "react-icons/io5";
 import { RiInstagramFill } from "react-icons/ri";
 import Link from "next/link";
@@ -14,10 +14,10 @@ export default function Footer() {
           <GrFacebookOption className="w-7 h-6 fill-white" />
         </Link>
         <Link href="https://twitter.com/UsamaMalik115?t=2iFcl9kUFzNnhkhLeEAj0g&s=091">
-          <BsTwitter className="w-7 h-6 fill-white" />
+          <FaTwitter className="w-7 h-6 fill-white" />
         </Link>
         <Link href="https://www.youtube.com/@usamamalik15">
-          <SiYoutube className="w-7 h-6 fill-white" />
+          <BsYoutube className="w-7 h-6 fill-white" />
         </Link>
         <Link href="https://www.tiktok.com/@usamamalik152?_t=8aeLAa5kQLf&_r=1">
           <IoLogoTiktok className="w-7 h-6 fill-white" />

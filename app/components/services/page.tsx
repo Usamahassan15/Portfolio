@@ -1,7 +1,8 @@
 import React from "react";
 import { FaRegLightbulb, FaLaptopCode } from "react-icons/fa";
 import { RiAppleLine } from "react-icons/ri";
-import { SiAdobephotoshop, SiAdobeillustrator } from "react-icons/Si";
+import { DiPhotoshop} from "react-icons/di";
+import { DiIllustrator } from "react-icons/di";
 import { ImFacebook2 } from "react-icons/im";
 
 export default function Services() {
@@ -65,7 +66,7 @@ export default function Services() {
           <li>
           <div className="block overflow-hidden group h-48 sm:h-72 md:h-76 w-full object-cover transition duration-500 group-hover:scale-105 drop-shadow-2xl">
               <div>
-                <SiAdobephotoshop className="w-10 h-16 fill-red-500" />
+                <DiPhotoshop className="w-10 h-16 fill-red-500" />
               </div>
               <div>
                 <p className="font-bold text-lg">Adobe Photoshop</p>
@@ -81,7 +82,7 @@ export default function Services() {
           <li>
           <div className="block overflow-hidden group h-48 sm:h-72 md:h-76 w-full object-cover transition duration-500 group-hover:scale-105 drop-shadow-2xl">
               <div>
-                <SiAdobeillustrator className="w-10 h-16 fill-red-500" />
+                <DiIllustrator className="w-10 h-16 fill-red-500" />
               </div>
               <div>
                 <p className="font-bold text-lg">Adobe Illustrator</p>
