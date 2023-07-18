@@ -3,10 +3,10 @@ import { FaBirthdayCake } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
 import { MdCastForEducation } from "react-icons/md";
 import { ImMail } from "react-icons/im";
-import { BsCalendarDayFill } from "react-icons/bs";
+import { BsFillCalendarDayFill } from "react-icons/Bs"; 
 import { IoGameController } from "react-icons/io5";
 import { FaUserGraduate } from "react-icons/fa";
-import { BsFillTelephoneForwardFill } from "react-icons/bs"; 
+import { ImMobile } from "react-icons/im";  
 import TypingAnimation from "../typeanimation/page";
 
 export default function About() {
@@ -61,7 +61,7 @@ export default function About() {
 
               <ul className="flex flex-col space-y-3 lg:space-x-8">
                 <li className="flex items-center lg:ml-8">
-                  <BsCalendarDayFill className="w-5 h-6 fill-red-500" />
+                  <BsFillCalendarDayFill className="w-5 h-6 fill-red-500" />
                   <p className="font -normal text-lg ml-2">Age: 24</p>
                 </li>
                 <li className="flex items-center">
@@ -73,7 +73,7 @@ export default function About() {
                   <p className="font -normal text-lg ml-2">Degree: IT</p>
                 </li>
                 <li className="flex items-center">
-                  <BsFillTelephoneForwardFill className="w-5 h-6 fill-red-500" />
+                  <ImMobile className="w-5 h-6 fill-red-500" />
                   <p className="font -normal text-lg ml-2">Phone: 03175817400</p>
                 </li>
               </ul>
